@@ -49,14 +49,14 @@ Are there any special posts this week? (yes/no): yes
 
 The program will then display the weekly assignments by category:
 
-  ### ARTICLE STORY POST
+  #### ARTICLE STORY POST
   ----------------------------------------
   1. alina
   2. marina
   3. jayda
   ...
 
-  ### TIKTOKS
+  #### TIKTOKS
   ----------------------------------------
   1. heather
   2. alexia
@@ -65,7 +65,7 @@ The program will then display the weekly assignments by category:
   ----------------------------------------
   ...
 
-  ### SPECIAL POST
+  #### SPECIAL POST
   ----------------------------------------
   Post: exec board photo shoot
   Assigned to: heather
