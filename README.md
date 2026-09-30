@@ -70,5 +70,30 @@ The program will then display the weekly assignments by category:
   Post: exec board photo shoot
   Assigned to: heather
 
+  ## Weekly History (Added with an AI Coding Agent)
+
+The planner now remembers past weeks so no one gets the same type of assignment two weeks in a row.
+
+### How it works
+  - The program asks which posting week it is.
+  - Each week's assignments are saved to `history.txt`, which the program creates automatically on the first run.
+  - When assigning, it first makes sure every team member gets at least one task, then avoids giving anyone the same category they had the previous week.
+  - If a repeat can't be avoided (for example, more articles than people who didn't do articles last week), it still makes the assignment so no one is left out.
+
+Each line in `history.txt` is: week number, team member, assignment type. Example with made-up names:
+
+1    Ava    Article Story Post
+1    Mia    TikTok
+2    Mia    Article Story Post
+2    Ava    TikTok
+
+### Notes
+  - Type names the same way every week (for example, "Ava" every time) so the history matches.
+  - `history.txt` stays on your own computer and is not included in this repository, since it contains real team assignments.
+  - To start fresh (for example, a new semester), delete `history.txt`.
+
+### How I built it
+I used an AI coding agent in VS Code to help add this feature. I gave it a description of what I wanted (track weeks, save history, avoid repeats), then reviewed and ran the code myself. When testing showed that some teammates were left without assignments in week 2, I had the agent adjust the logic so everyone gets at least one task first and avoiding repeats comes second. I checked the final version by running multiple weeks in a row and reading through the saved history.
+
 # Purpose
 The purpose of this project is to make weekly social media assignment planning more fair, efficient, and organized for the Her Campus Texas State Social Media Team. As a Social Media Co-Director, I created this program to simplify the assignment process and reduce the time spent manually organizing weekly tasks.
