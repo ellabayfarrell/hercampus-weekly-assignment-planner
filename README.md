@@ -6,7 +6,7 @@ As a Social Media Co-Director, I help organize weekly assignments for our Social
 
 The program takes information about the team and the week's content, then randomly assigns team members to different types of social media assignments. This helps with assigning weekly content more easily and helps distribute assignments across the whole team.
 
-How It Works. .
+# How It Works
   - Enter the number of Social Media Team members and their names
   - Enter the number of articles being published for the week
   - Automatically assign two TikToks
@@ -22,7 +22,7 @@ The program also creates at least two TikTok assignments. If there are not enoug
 If there are more articles than team members, each member can receive one article story post, and the remaining articles will be assigned to the co-directors.
 The program asks if there are any special posts planned for the week. If there is a special post, the user will enter a description and choose which team member should handle it. 
 
-Technologies. .
+# Technologies
   - Java
   - Java Scanner
   - Java Random
@@ -32,14 +32,14 @@ Technologies. .
   - User Input
   - Random assignment logic
 
-How to Run. .
+# How to Run
   1. Make sure that Java is installed on your computer.
   2. Download or clone this repository.
   3. Open the project in VS Code or another Java IDE.
   4. Compile and run Main.java.
   5. Follow the prompts in the terminal.
 
-Example. .
+# Example
 The program will ask questions such as:
 
 Enter the Director's name: Ella
@@ -49,7 +49,7 @@ Are there any special posts this week? (yes/no): yes
 
 The program will then display the weekly assignments by category:
 
-ARTICLE STORY POSTS
+ARTICLE STORY POST
 ----------------------------------------
 1. alina
 2. marina
@@ -70,5 +70,5 @@ SPECIAL POST
 Post: exec board photo shoot
 Assigned to: heather
 
-Purpose. .
+# Purpose
 The purpose of this project is to make weekly social media assignment planning more fair, efficient, and organized for the Her Campus Texas State Social Media Team. As a Social Media Co-Director, I created this program to simplify the assignment process and reduce the time spent manually organizing weekly tasks.
