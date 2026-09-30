@@ -49,26 +49,26 @@ Are there any special posts this week? (yes/no): yes
 
 The program will then display the weekly assignments by category:
 
-ARTICLE STORY POST
-----------------------------------------
-1. alina
-2. marina
-3. jayda
-...
+  ARTICLE STORY POST
+  ----------------------------------------
+  1. alina
+  2. marina
+  3. jayda
+  ...
 
-TIKTOKS
-----------------------------------------
-1. heather
-2. alexia
+  TIKTOKS
+  ----------------------------------------
+  1. heather
+  2. alexia
 
-IN-FEED POSTS
-----------------------------------------
-...
+  IN-FEED POSTS
+  ----------------------------------------
+  ...
 
-SPECIAL POST
-----------------------------------------
-Post: exec board photo shoot
-Assigned to: heather
+  SPECIAL POST
+  ----------------------------------------
+  Post: exec board photo shoot
+  Assigned to: heather
 
 # Purpose
 The purpose of this project is to make weekly social media assignment planning more fair, efficient, and organized for the Her Campus Texas State Social Media Team. As a Social Media Co-Director, I created this program to simplify the assignment process and reduce the time spent manually organizing weekly tasks.
