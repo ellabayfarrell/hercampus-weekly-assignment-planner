@@ -65,7 +65,7 @@ The program will then display the weekly assignments by category:
   ----------------------------------------
   ...
 
-  SPECIAL POST
+  ### SPECIAL POST
   ----------------------------------------
   Post: exec board photo shoot
   Assigned to: heather
